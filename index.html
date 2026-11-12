@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy & Terms of Use – Dhyana: Mindful Buddha Sanctuary</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    :root {
+      --bg: #F6EFDD;
+      --card: #EFE3C6;
+      --text: #4A2C1A;
+      --terracotta: #B8643C;
+      --gold: #C9A45C;
+      --sand: #E3D2AB;
+      --sand-dark: #D4BE90;
+      --card-alt: #FAF5E8;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+    }
+    .wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px 80px 24px;
+    }
+    header.hero {
+      text-align: center;
+      padding: 40px 24px;
+      background: var(--card);
+      border-radius: 24px;
+      border: 1px solid var(--sand);
+      box-shadow: 0 8px 30px rgba(74, 44, 26, 0.06);
+      margin-bottom: 36px;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: var(--terracotta);
+      color: #fff;
+      padding: 6px 18px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    h1, h2, h3, h4 {
+      font-family: "Georgia", "Times New Roman", serif;
+      color: var(--text);
+      letter-spacing: 0.3px;
+      line-height: 1.3;
+    }
+    h1 {
+      font-size: 2.2rem;
+      color: var(--terracotta);
+      margin: 8px 0 16px 0;
+    }
+    .hero-subtitle {
+      font-size: 1.1rem;
+      color: var(--text);
+      margin-bottom: 24px;
+      opacity: 0.9;
+    }
+    .meta-box {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      background: var(--card-alt);
+      border: 1px solid var(--sand);
+      border-radius: 14px;
+      padding: 18px 22px;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+    .meta-box div {
+      padding: 4px 0;
+    }
+    .meta-label {
+      font-weight: 700;
+      color: var(--terracotta);
+    }
+    .meta-box a {
+      color: var(--terracotta);
+      text-decoration: underline;
+    }
+    nav.toc {
+      background: var(--card);
+      border: 1px solid var(--sand);
+      border-radius: 18px;
+      padding: 24px 28px;
+      margin-bottom: 36px;
+    }
+    nav.toc h2 {
+      font-size: 1.25rem;
+      margin-top: 0;
+      margin-bottom: 14px;
+      color: var(--terracotta);
+      border-bottom: 1px solid var(--sand);
+      padding-bottom: 10px;
+    }
+    .toc-columns {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    .toc-columns ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .toc-columns li {
+      margin-bottom: 8px;
+    }
+    .toc-columns a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .toc-columns a:hover {
+      color: var(--terracotta);
+      text-decoration: underline;
+    }
+    .section-card {
+      background: var(--card);
+      border: 1px solid var(--sand);
+      border-radius: 20px;
+      padding: 36px 32px;
+      margin-bottom: 36px;
+      box-shadow: 0 4px 20px rgba(74, 44, 26, 0.04);
+    }
+    .section-card h2 {
+      font-size: 1.7rem;
+      color: var(--terracotta);
+      margin-top: 0;
+      margin-bottom: 8px;
+      border-bottom: 2px solid var(--sand);
+      padding-bottom: 12px;
+    }
+    .section-card h3 {
+      font-size: 1.25rem;
+      color: var(--text);
+      margin-top: 28px;
+      margin-bottom: 8px;
+    }
+    .alert-box {
+      background: #FFF8EA;
+      border-left: 4px solid var(--terracotta);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 20px 0;
+      font-size: 0.95rem;
+    }
+    .alert-box strong {
+      color: var(--terracotta);
+      display: block;
+      margin-bottom: 6px;
+      font-size: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: var(--card-alt);
+      border-radius: 10px;
+      overflow: hidden;
+      font-size: 0.92rem;
+    }
+    th, td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid var(--sand);
+    }
+    th {
+      background: var(--sand);
+      color: var(--text);
+      font-weight: 700;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    code {
+      background: #FAF2DF;
+      padding: 2px 7px;
+      border-radius: 4px;
+      font-size: 0.88em;
+      font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+      border: 1px solid var(--sand);
+      color: var(--text);
+    }
+    ul, ol {
+      padding-left: 24px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: var(--terracotta);
+      text-decoration: underline;
+    }
+    a:hover {
+      color: var(--text);
+    }
+    .back-to-top {
+      display: inline-block;
+      margin-top: 24px;
+      font-size: 0.88rem;
+      color: var(--terracotta);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 6px 14px;
+      background: var(--card-alt);
+      border: 1px solid var(--sand);
+      border-radius: 20px;
+    }
+    .back-to-top:hover {
+      background: var(--sand);
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px 20px 20px;
+      font-size: 0.9rem;
+      color: #7A533B;
+      border-top: 1px solid var(--sand);
+      margin-top: 40px;
+    }
+    .floating-top-btn {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: var(--terracotta);
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 700;
+      box-shadow: 0 4px 15px rgba(184, 100, 60, 0.35);
+      transition: transform 0.2s ease;
+      z-index: 100;
+    }
+    .floating-top-btn:hover {
+      transform: translateY(-2px);
+      color: #fff;
+    }
+    @media (max-width: 600px) {
+      .wrapper {
+        padding: 20px 14px 60px 14px;
+      }
+      .section-card {
+        padding: 24px 18px;
+      }
+      header.hero {
+        padding: 28px 16px;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="#top" class="floating-top-btn" title="Back to top">↑ Top</a>
+
+  <div class="wrapper" id="top">
+    <!-- HERO HEADER -->
+    <header class="hero">
+      <div class="hero-badge">100% Offline • Private by Design</div>
+      <h1>Dhyana: Mindful Buddha Sanctuary</h1>
+      <p class="hero-subtitle">Legal Documentation: Privacy Policy &amp; Terms of Use</p>
+
+      <div class="meta-box">
+        <div><span class="meta-label">Application:</span> Dhyana – Mindful Buddha Sanctuary</div>
+        <div><span class="meta-label">Application ID:</span> <code>com.born2code.dhyana</code></div>
+        <div><span class="meta-label">Publisher (Play Store):</span> BORN2CODE</div>
+        <div><span class="meta-label">Developer (Legal):</span> Meghana Kotambari</div>
+        <div><span class="meta-label">Website:</span> <a href="https://born-2-code.tech" target="_blank" rel="noopener">https://born-2-code.tech</a></div>
+        <div><span class="meta-label">Support Email:</span> <a href="mailto:meghanakotambari@gmail.com">meghanakotambari@gmail.com</a></div>
+        <div><span class="meta-label">Effective Date:</span> November 12, 2026</div>
+        <div><span class="meta-label">Architecture:</span> 100% Offline (Zero Cloud Sync)</div>
+      </div>
+    </header>
+
+    <!-- TABLE OF CONTENTS -->
+    <nav class="toc" aria-label="Table of Contents">
+      <h2>Table of Contents</h2>
+      <div class="toc-columns">
+        <div>
+          <h3 style="font-size: 1.05rem; margin-top: 0; color: var(--terracotta);">Part A: Privacy Policy</h3>
+          <ul>
+            <li><a href="#privacy">1. Zero Data Collection Architecture</a></li>
+            <li><a href="#storage">2. On-Device Storage (AsyncStorage)</a></li>
+            <li><a href="#permissions">3. Android System Permissions &amp; Purpose</a></li>
+            <li><a href="#no-sdks">4. Zero Third-Party SDKs &amp; Analytics</a></li>
+            <li><a href="#deletion">5. Data Deletion &amp; Practice Reset</a></li>
+            <li><a href="#children">6. Children's Privacy Notice</a></li>
+            <li><a href="#policy-changes">7. Policy Changes</a></li>
+            <li><a href="#privacy-contact">8. Developer &amp; Contact Details</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="font-size: 1.05rem; margin-top: 0; color: var(--terracotta);">Part B: Terms of Use</h3>
+          <ul>
+            <li><a href="#terms">1. Acceptance of Terms</a></li>
+            <li><a href="#permitted-use">2. Permitted Use &amp; License</a></li>
+            <li><a href="#wellness-disclaimer">3. Non-Medical Wellness Disclaimer</a></li>
+            <li><a href="#health-declaration">4. Google Play Health Apps Declaration</a></li>
+            <li><a href="#intellectual-property">5. Intellectual Property</a></li>
+            <li><a href="#audio-credits">6. Audio Licenses &amp; Master Register</a></li>
+            <li><a href="#warranties">7. Disclaimer of Warranties</a></li>
+            <li><a href="#liability">8. Limitation of Liability</a></li>
+            <li><a href="#terms-contact">9. Terms Contact Information</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- PART A: PRIVACY POLICY -->
+    <article class="section-card" id="privacy">
+      <h2>Part A: Privacy Policy</h2>
+      <p><em>Effective Date: November 12, 2026</em></p>
+
+      <p>
+        Dhyana is developed by <strong>Meghana Kotambari</strong> and published on Google Play as <strong>BORN2CODE</strong>.
+        This Privacy Policy explains how Dhyana handles user information. Because Dhyana is designed from the foundation up as a 100% offline, private sanctuary, <strong>we do not collect, transmit, store, sell, or share any personal information whatsoever.</strong>
+      </p>
+
+      <div class="alert-box">
+        <strong>100% Offline Sanctuary Guarantee</strong>
+        Dhyana does not communicate with external servers, databases, or cloud backends. All features—including soundscapes, timer countdowns, pranayama breathwork, streak calculations, and reminder chimes—execute entirely on your local device hardware.
+      </div>
+
+      <h3 id="storage">1. Zero Data Collection &amp; On-Device Storage</h3>
+      <p>
+        Dhyana does not require user accounts, email registration, phone numbers, or passwords.
+        The application creates no user profiles and collects no personal data.
+      </p>
+      <p>
+        The following application state is retained <strong>strictly on your device</strong> using local Android storage (<code>AsyncStorage</code>):
+      </p>
+      <ul>
+        <li><strong>Session Statistics:</strong> Total mindful minutes cultivated, consecutive daily streak count, and last active practice date (used to grow the illustrative on-device Bodhi Tree).</li>
+        <li><strong>Notification Preferences:</strong> Daily reminder toggle (on/off), chosen reminder time (e.g., 07:30 AM), and selected chime sound (Temple Bell or Singing Bowl).</li>
+        <li><strong>Sanctuary Settings:</strong> Screen wake lock preference during active meditation and first-launch onboarding completion flag.</li>
+      </ul>
+      <p>None of this data ever leaves your device.</p>
+
+      <h3 id="permissions">2. Android System Permissions &amp; Declarations</h3>
+      <p>
+        Dhyana requests only the minimal Android permissions necessary to provide relaxation timers and reminder chimes. We never request camera, microphone, location, contact, phone state, external storage, or exact-alarm permissions.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Permission</th>
+            <th>API Level / Type</th>
+            <th>Exact Purpose in Dhyana</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>android.permission.POST_NOTIFICATIONS</code></td>
+            <td>Android 13+ (API 33+)</td>
+            <td>Allows the system to display gentle daily mindfulness reminder chimes scheduled by you. Optional; the app remains 100% usable if denied.</td>
+          </tr>
+          <tr>
+            <td><code>android.permission.VIBRATE</code></td>
+            <td>Standard</td>
+            <td>Provides subtle haptic feedback during breathwork intervals (inhale, hold, exhale) and meditation bell strikes.</td>
+          </tr>
+          <tr>
+            <td><code>android.permission.WAKE_LOCK</code></td>
+            <td>Standard</td>
+            <td>Prevents screen timeout during active meditation countdown sessions when the user enables "Keep Screen Awake".</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        <strong>No Exact Alarm Permissions:</strong> Dhyana does <strong>not</strong> request or declare <code>SCHEDULE_EXACT_ALARM</code> or <code>USE_EXACT_ALARM</code>. All reminder notifications rely on standard, battery-friendly scheduled local notifications.
+      </p>
+
+      <h3 id="no-sdks">3. Zero Third-Party SDKs, Analytics, or Advertisements</h3>
+      <ul>
+        <li><strong>No Advertising SDKs:</strong> Dhyana contains no ads, banners, interstitial promotions, or advertising tracking identifiers (no Google AdMob, Unity, etc.).</li>
+        <li><strong>No Analytics SDKs:</strong> We do not track events, screen views, sessions, or engagement (no Google Analytics, Firebase Analytics, Mixpanel, etc.).</li>
+        <li><strong>No Crash-Reporting Backends:</strong> Crashes are handled locally by an in-app error boundary with a safe sanctuary recovery screen. No crash logs or device metrics are transmitted over the internet.</li>
+      </ul>
+
+      <h3 id="deletion">4. How to Delete or Reset Your Data</h3>
+      <p>
+        Because all data resides exclusively on your local device hardware, you maintain absolute control over it at all times:
+      </p>
+      <ul>
+        <li><strong>In-App Reset:</strong> Open <em>Settings &gt; Reset Practice History</em>. This instantly resets your minutes, daily streaks, and Bodhi Tree growth to day one.</li>
+        <li><strong>Android System Clear Data:</strong> Go to your phone's <em>Settings &gt; Apps &gt; Dhyana &gt; Storage &gt; Clear Storage / Clear Data</em>. This permanently deletes all local app preferences.</li>
+        <li><strong>Uninstall:</strong> Uninstalling Dhyana automatically purges all locally stored files and preferences created by the app.</li>
+      </ul>
+
+      <h3 id="children">5. Children's Privacy</h3>
+      <p>
+        <strong>Dhyana does not collect personal information from anyone, including children.</strong>
+        The app is suitable for general audiences and contains no social sharing, internet communication, user-generated content, or targeted features.
+      </p>
+
+      <h3 id="policy-changes">6. Changes to This Privacy Policy</h3>
+      <p>
+        We may update this Privacy Policy from time to time. Any revisions will be reflected with a renewed "Effective Date" at the top of this page. Because Dhyana operates 100% offline and possesses no contact channels to users, we recommend reviewing this public URL periodically.
+      </p>
+
+      <h3 id="privacy-contact">7. Contact Information</h3>
+      <p>
+        For inquiries regarding this Privacy Policy, please contact:
+      </p>
+      <p>
+        <strong>BORN2CODE</strong><br>
+        Developer: Meghana Kotambari<br>
+        Website: <a href="https://born-2-code.tech" target="_blank" rel="noopener">https://born-2-code.tech</a><br>
+        Support Email: <a href="mailto:meghanakotambari@gmail.com">meghanakotambari@gmail.com</a>
+      </p>
+      <p>
+        <em>Dhyana is developed by Meghana Kotambari and published on Google Play as BORN2CODE.</em>
+      </p>
+
+      <a href="#top" class="back-to-top">↑ Back to Top</a>
+    </article>
+
+    <!-- PART B: TERMS OF USE -->
+    <article class="section-card" id="terms">
+      <h2>Part B: Terms of Use</h2>
+      <p><em>Effective Date: November 12, 2026</em></p>
+
+      <p>
+        These Terms of Use ("Terms") govern your use of the <strong>Dhyana – Mindful Buddha Sanctuary</strong> mobile application ("Dhyana", "the App") developed by <strong>Meghana Kotambari</strong> and published on Google Play as <strong>BORN2CODE</strong>.
+      </p>
+
+      <h3 id="permitted-use">1. Permitted Use &amp; License</h3>
+      <ul>
+        <li><strong>Personal, Non-Commercial License:</strong> You are granted a personal, revocable, non-exclusive, non-transferable license to use Dhyana solely for individual wellness, meditation, and contemplative purposes.</li>
+        <li><strong>Offline Architecture:</strong> The application is delivered 100% offline. You agree not to attempt to reverse-engineer, decompile, extract proprietary bundled assets, or redistribute modified application binaries without express authorization.</li>
+      </ul>
+
+      <h3 id="wellness-disclaimer">2. Non-Medical Wellness Disclaimer</h3>
+      <div class="alert-box">
+        <strong>IMPORTANT MEDICAL &amp; WELLNESS DISCLAIMER</strong>
+        Dhyana is designed solely as a secular relaxation, meditation, and general mindfulness aid.
+      </div>
+      <ul>
+        <li><strong>Not Healthcare Advice:</strong> The soundscapes, breathing exercises (pranayama), meditation timers, guided themes, and daily Buddhist philosophical wisdom provided in Dhyana are for educational, contemplative, and general relaxation purposes only. They do not constitute medical, psychiatric, psychological, or clinical healthcare advice.</li>
+        <li><strong>No Diagnosis or Cure Claims:</strong> Dhyana makes no claims to diagnose, cure, treat, mitigate, or prevent any physical illness, mental health condition, clinical anxiety disorder, depressive illness, or sleep disorder.</li>
+        <li><strong>Consult Licensed Professionals:</strong> If you are experiencing severe anxiety, panic, clinical depression, trauma, respiratory illness, or any medical condition, you should always consult a licensed physician, clinical psychologist, or qualified healthcare professional. Never disregard or delay seeking professional medical advice because of something you accessed in this App.</li>
+        <li><strong>Breathwork Caution:</strong> If you experience dizziness, lightheadedness, shortness of breath, or discomfort during any pranayama breathing pattern (e.g., 4-2-6, 4-4-4, 4-7-8), discontinue the exercise immediately and breathe naturally.</li>
+      </ul>
+
+      <h3 id="health-declaration">3. Google Play Health Apps Declaration Compliance</h3>
+      <p>
+        Under Google Play's dedicated Health Apps Declaration policy, Dhyana is classified as a <strong>General Health &amp; Wellness Application</strong>.
+        Dhyana is not a medical device, clinical diagnostic software, or regulated therapeutic tool, and makes no clinical health claims.
+      </p>
+
+      <h3 id="intellectual-property">4. Intellectual Property</h3>
+      <p>
+        The software architecture, user interface design, visual illustrations (Sacred Buddha Arch, Kalpavriksha Bodhi Tree, Hanging Temple Bell), brand assets, and application code are the intellectual property of <strong>Meghana Kotambari</strong> (BORN2CODE). All rights reserved.
+      </p>
+
+      <h3 id="audio-credits">5. Audio Licenses &amp; Attribution Register</h3>
+      <p>
+        All 12 acoustic soundscapes, flute ragas, and ritual chimes bundled locally within Dhyana are sourced exclusively from verified open archives under open Creative Commons licenses permitting distribution with attribution.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Soundscape Title</th>
+            <th>File Name</th>
+            <th>Original Artist</th>
+            <th>License</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td><strong>Sacred Ocean Waves</strong></td>
+            <td><code>ocean_waves.wav</code></td>
+            <td>Ganesh Mohan T</td>
+            <td>CC BY-SA 4.0</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><strong>Starlit Sanctuary Stillness</strong></td>
+            <td><code>starlit_night.wav</code></td>
+            <td>Felipe Ruiz P. / GaMus RuizBRX11</td>
+            <td>CC BY-SA 4.0</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><strong>Bansuri Flute Raga</strong></td>
+            <td><code>bansuri_flute.wav</code></td>
+            <td>MayankSingh33</td>
+            <td>CC BY-SA 4.0</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><strong>Monsoon Rain on Leaves</strong></td>
+            <td><code>monsoon_rain.wav</code></td>
+            <td>Gravity Sound Studio</td>
+            <td>CC BY 4.0</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td><strong>Himalayan Spring Stream</strong></td>
+            <td><code>river_stream.wav</code></td>
+            <td>jackthemurray</td>
+            <td>CC0 1.0 Universal</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><strong>Forest Sanctuary Birds</strong></td>
+            <td><code>forest_birds.wav</code></td>
+            <td>Mk170101</td>
+            <td>CC BY 4.0</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td><strong>Deep Meditative Drone</strong></td>
+            <td><code>deep_om.wav</code></td>
+            <td>Anton</td>
+            <td>CC BY 3.0</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td><strong>Classical Sitar &amp; Tanpura</strong></td>
+            <td><code>tanpura_drone.wav</code></td>
+            <td>Ranjit Makkuni</td>
+            <td>CC BY-SA 4.0</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td><strong>Serene Evening Flute</strong></td>
+            <td><code>campfire_stillness.wav</code></td>
+            <td>MayankSingh33</td>
+            <td>CC BY-SA 4.0</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td><strong>Sacred Sanctuary Drone</strong></td>
+            <td><code>buddhist_chant.wav</code></td>
+            <td>Gravity Sound Studio</td>
+            <td>CC BY 4.0</td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td><strong>Sacred Temple Bell</strong></td>
+            <td><code>temple_bell.wav</code></td>
+            <td>the_very_Real_Horst</td>
+            <td>CC0 1.0 Universal</td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td><strong>Tibetan Singing Bowl</strong></td>
+            <td><code>singing_bowl.wav</code></td>
+            <td>Valera N. Trubin</td>
+            <td>CC BY 4.0</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <em>Modifications: Audio tracks have been normalized to -14dB meditation volume and mastered with 1.2-second seamless crossfades for tranquil continuous loop playback.</em>
+      </p>
+
+      <h3 id="warranties">6. Disclaimer of Warranties</h3>
+      <p>
+        Dhyana is provided on an <strong>"AS IS"</strong> and <strong>"AS AVAILABLE"</strong> basis without warranties of any kind, either express or implied, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. We do not warrant that the application will be uninterrupted, error-free, or compatible with every hardware device.
+      </p>
+
+      <h3 id="liability">7. Limitation of Liability</h3>
+      <p>
+        To the maximum extent permitted by applicable law, in no event shall the developer (Meghana Kotambari) or publisher (BORN2CODE) of Dhyana be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of or inability to use the App, even if advised of the possibility of such damages.
+      </p>
+
+      <h3 id="terms-contact">8. Contact Information</h3>
+      <p>
+        For inquiries regarding these Terms of Use, please reach out to:
+      </p>
+      <p>
+        <strong>BORN2CODE</strong><br>
+        Developer: Meghana Kotambari<br>
+        Website: <a href="https://born-2-code.tech" target="_blank" rel="noopener">https://born-2-code.tech</a><br>
+        Support Email: <a href="mailto:meghanakotambari@gmail.com">meghanakotambari@gmail.com</a><br>
+        Policy Repository: <a href="https://github.com/meghanakotambari/dhyana-privacy" target="_blank" rel="noopener">https://github.com/meghanakotambari/dhyana-privacy</a>
+      </p>
+
+      <a href="#top" class="back-to-top">↑ Back to Top</a>
+    </article>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; 2026 BORN2CODE (Meghana Kotambari). All rights reserved.</p>
+      <p style="font-size: 0.82rem; opacity: 0.8;">Dhyana – Mindful Buddha Sanctuary • Application ID: <code>com.born2code.dhyana</code></p>
+    </footer>
+  </div>
+</body>
+</html>
